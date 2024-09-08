@@ -1,0 +1,83 @@
+/* For smaller devices (less than 600px) */
+@media (max-width: 599px) {
+    .calculator {
+        width: 90%; /* Make calculator width responsive */
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    .calculator-screen {
+        height: 40px; /* Smaller screen size */
+        font-size: 1.5rem; /* Smaller font size */
+        padding: 0 10px;
+    }
+
+    .calculator-keys {
+        gap: 5px;
+    }
+
+    button {
+        height: 40px;
+        font-size: 1.2rem;
+    }
+
+    .key-equal {
+        height: 60px;
+    }
+}
+
+/* For medium devices (600px to 900px) */
+@media (min-width: 600px) and (max-width: 899px) {
+    .calculator {
+        width: 70%; /* Make calculator width responsive */
+        padding: 15px;
+        border-radius: 18px;
+    }
+
+    .calculator-screen {
+        height: 50px; /* Medium screen size */
+        font-size: 1.75rem; /* Medium font size */
+        padding: 0 15px;
+    }
+
+    .calculator-keys {
+        gap: 8px;
+    }
+
+    button {
+        height: 45px;
+        font-size: 1.3rem;
+    }
+
+    .key-equal {
+        height: 70px;
+    }
+}
+
+/* For larger devices (over 900px) */
+@media (min-width: 900px) {
+    .calculator {
+        width: 50%; /* Make calculator width responsive */
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .calculator-screen {
+        height: 60px; /* Larger screen size */
+        font-size: 2rem; /* Larger font size */
+        padding: 0 20px;
+    }
+
+    .calculator-keys {
+        gap: 10px;
+    }
+
+    button {
+        height: 50px;
+        font-size: 1.5rem;
+    }
+
+    .key-equal {
+        height: 80px;
+    }
+}
